@@ -1,8 +1,10 @@
 local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
 
-local win = DiscordLib:Window("SereggaCord")
+-- made by mud0ta#1337 thx to weizzy and ik3ac for cheats
 
-local serv = win:Server("SereggaCord", "")
+local win = DiscordLib:Window("SwimCord")
+
+local serv = win:Server("SwimCord", "")
 
 local btns = serv:Channel("skinchanger")
 
@@ -23,3 +25,14 @@ tgls:Button("sirex ware v2 (bullshit)", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/SirexWare/Sirex-Ware-V2/main/Sirex%20Ware%20Source"))()
 DiscordLib:Notification("yo", "key is wefwgrw12", "nooo")
 end)
+
+
+tgls:Button("pepsi.club loader", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/deaddigi/pepsi.club/main/3.0/loader.lua", true))()
+end)
+
+tgls:Button("noovster (again bullshit)", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/NooVster/404/main/Source'))()
+end)
+
+-- made by mud0ta#1337 thx to weizzy and ik3ac for cheats
